@@ -1,0 +1,204 @@
+.container-fluid, .row{
+  margin: 0;
+  padding: 0 !important;
+}
+
+nav{
+  background: hsl(112, 100%, 21%);
+}
+
+nav .navbar-brand{
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+nav .nav-link{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.hero .row .col-lg-6{
+  align-self: center;
+}
+
+.hero .row .col-lg-6 h1{
+  font-size: 60px;
+  font-weight: 900;
+  color: hsl(112, 100%, 21%);
+}
+
+.hero .row .col-lg-6 p{
+  color: hsl(112, 100%, 34%);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.hero .row .col-lg-6 button{
+  background: hsl(112, 100%, 25%);
+  color: white;
+  font-weight: 700;
+  box-shadow: none;
+}
+
+.hero .row .col-lg-6 button:hover{
+  background: hsl(112, 100%, 21%);
+}
+
+.hero .row .col-lg-6 img{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.carousel{
+  margin-top: 50px;
+}
+
+.carousel .carousel-inner .carousel-item{
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+.carousel .carousel-inner .carousel-item img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+}
+
+.carousel .carousel-inner .carousel-item button{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 3;
+  display: none;
+}
+
+
+/* .carousel .video{
+	display: none;
+} */
+
+.shown{
+	display: block !important;
+}
+
+.showbtn{
+	display: block !important;
+}
+
+.third{
+  margin: 100px auto;
+  padding: 100px 0;
+  background: hsl(111, 30%, 74%);
+}
+
+.third h3{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.third .tray{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.third .tray div{
+  width: 200px;
+  height: 100px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 5px solid hsl(111, 30%, 74%);
+  box-shadow: -7px -7px 15px hsl(111, 100%, 95%),
+              7px 7px 15px hsl(111, 21%, 49%);
+  transition: 300ms;
+}
+
+.third .tray div:hover{
+  box-shadow: -7px -7px 15px hsl(111, 100%, 95%),
+              7px 7px 15px hsl(111, 21%, 49%),
+              inset -7px -7px 15px hsl(111, 100%, 95%),
+              inset 7px 7px 15px hsl(111, 21%, 49%);
+  transition: 300ms;
+}
+
+.third .tray div span{
+  color: hsl(112, 100%, 21%);
+  font-size: 20px;
+  font-weight: 700;
+  transition: 300ms;
+}
+
+.third .tray div:hover span{
+  color: white;
+  transition: 300ms;
+}
+
+.forth{
+  margin: 100px auto;
+}
+
+.forth .card-deck{
+  margin: 0%;  
+}
+
+.forth .card-deck .card{
+  margin: 50px;  
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.forth .card-deck .card img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+}
+
+.forth .card-deck .card .card-footer{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+  object-position: center;
+  z-index: 2;
+  background: hsla(111, 11%, 52%, 0.3);
+  backdrop-filter: blur(4px);
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.forth .card-deck .card .card-footer h4{
+  color: white;
+}
+
+.forth .card-deck .card .card-footer p{
+  color: hsl(111, 100%, 95%);
+}
